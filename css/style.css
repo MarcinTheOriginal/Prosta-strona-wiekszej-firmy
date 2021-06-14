@@ -1,3 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
 body {
     font-family: 'Raleway', sans-serif;
+    font-style: 1.6rem;
+}
+
+.color-fire1 {
+    color: #FFE808;
+}
+.color-fire2 {
+    color: #FFCE00;
+}
+.color-fire3 {
+    color: #FF9A00;
+}
+.color-fire4 {
+    color: #FF5A00;
+}
+
+/* NAVBAR */
+
+nav {
+    background-color: #363B42;
+}
+
+.fa-fire-extinguisher {
+  transform: scaleX(-1);
+}
+
+.navbar-brand {
+    font-size: 2.2rem;
+}
+
+.navbar-nav {
+    font-size: 1.8rem;
+    text-transform: uppercase;
 }
