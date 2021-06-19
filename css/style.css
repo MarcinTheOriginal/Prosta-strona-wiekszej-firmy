@@ -99,3 +99,27 @@ header {
         background-image: url(/img/m3l.jpg);
     }
 }
+
+/* MAIN */
+
+.card {
+    border: none;
+}
+
+.card p:nth-child(even) {
+    font-size: 2rem;
+    margin: 0;
+}
+.card p:nth-child(odd) {
+    font-size: 1.5rem;
+}
+
+.pasion {
+    position: relative;
+    height: 20rem;
+    background-image: url(/img/m6.jpg);
+    background-position: center;
+    background-size: cover;
+    z-index: 0;
+}
+
