@@ -123,12 +123,8 @@ header {
     z-index: 0;
 }
 
-.col p:nth-child(even) {
+.col-10 p:nth-child(even) {
     font-size: 1.5rem;
-}
-
-.mustangBottom {
-    max-height: 300px;
 }
 
 /* FOOTER */
