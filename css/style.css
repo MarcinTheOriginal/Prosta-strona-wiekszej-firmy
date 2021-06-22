@@ -134,7 +134,7 @@ header {
     font-size: 1.5rem;
 }
 
-.pasion {
+.passion {
     position: relative;
     height: 20rem;
     background-image: url(/img/m6.jpg);
@@ -143,8 +143,12 @@ header {
     z-index: 0;
 }
 
-.col-10 p:nth-child(even) {
+.passion p:nth-child(even) {
     font-size: 1.5rem;
+}
+
+.belowPassion {
+    font-size: 1.2rem;
 }
 
 /* FOOTER */
@@ -152,3 +156,73 @@ header {
 footer {
     font-size: 1.6rem;
 }
+
+/* O FIRMIE */
+
+.aboutUs {
+    position: relative;
+    height: 20rem;
+    background-image: url(/img/droga.jpg);
+    background-position: bottom;
+    background-size: cover;
+    z-index: 0;
+    text-transform: uppercase;
+}
+
+.belowAboutUs {
+    font-size: 1.2rem;
+}
+
+.belowAboutUs p:first-child {
+    font-size: 2.2rem;
+    font-weight: bold;
+    text-transform: none;
+}
+
+/* goalsAndPassion */
+
+.goalsAndPassion {
+    background: rgba(0, 0, 0, 0.05);
+}
+
+.text-left h1,
+.text-right h1{
+    text-decoration: underline #DC3545;
+}
+
+.text-right {
+    text-align: end;
+}
+
+.engine {
+    min-height: 150px;
+    background-image: url(/img/silnik.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+@media (min-width:768px) {
+    .goalsAndPassion {
+        box-shadow: 0 5px 10px -5px rgba(0, 0, 0, 0.4) inset;
+    }
+
+    .engine {
+        /* height: auto; */
+        transform: skewX(-10deg);
+    }
+
+    .text-left {
+        text-align: right;
+        transform: skewX(-10deg);
+    }
+
+    .text-right {
+        text-align: left;
+        transform: skewX(-10deg);
+    }
+}
+
+.goalsAndPassion p {
+    font-size: 1.2rem;
+}
+
