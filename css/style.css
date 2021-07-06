@@ -238,3 +238,10 @@ footer {
 .card-aboutus p {
     font-size: 1.2rem;
 }
+
+/* USŁUGI */
+
+.service-hero {
+    background-image: url('../img/service/oldcar.jpg');
+    background-position: 0 75%;
+}
