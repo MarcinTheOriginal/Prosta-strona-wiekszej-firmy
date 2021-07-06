@@ -124,6 +124,7 @@ header {
 
 .card {
     border: none;
+    font-size: 2rem;
 }
 
 .card p:nth-child(even) {
@@ -226,3 +227,14 @@ footer {
     font-size: 1.2rem;
 }
 
+.aboutus-bottom h3 {
+    font-weight: bold;
+}
+
+.card-aboutus i {
+    font-size: 5rem;
+}
+
+.card-aboutus p {
+    font-size: 1.2rem;
+}
