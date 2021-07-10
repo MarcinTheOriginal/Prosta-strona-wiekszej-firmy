@@ -296,3 +296,47 @@ footer {
     text-transform: uppercase;
     font-weight: bold;
 }
+
+/* Projekty */
+
+.project-hero {
+    background-image: url('../img/portfolio/project-hero.jpg');
+    background-position: 0 55%;
+}
+
+.project-hero-box {
+    position: relative;
+    height: 200px;
+    background-size: cover;
+    z-index: 0;
+}
+
+.card {
+    border-style: solid;
+    border-width: thin;
+    border-color: lightgray;
+    min-width: 190px;
+}
+
+.card-main-body {
+    padding: 10px 30px;
+}
+
+.card-bottom {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.card-button {
+    font-size: 1.6rem;
+    padding: 3px 10px;
+    text-transform: uppercase;
+    border-style: ridge;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+.card-one {
+    background-image: url(../img/portfolio/project1.jpg);
+}
