@@ -356,6 +356,11 @@ header {
 
 /* KONTAKT */
 
+.contact-hero {
+    background-image: url(../img/contact/contact-hero.jpg);
+    background-position: 0 40%;
+}
+
 .form-left, .form-right{
     border: 1px solid grey;
     border-radius: 10px;
@@ -375,6 +380,10 @@ header {
 .form-left {
     padding: 10px 0;
 }
+
+/* .contact-logo span{
+    background-color: grey;
+} */
 
 .form-right {
     padding: 10px 15px;
