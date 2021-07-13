@@ -356,3 +356,26 @@ header {
 
 /* KONTAKT */
 
+.form-left, .form-right{
+    border: 1px solid grey;
+    border-radius: 10px;
+}
+
+.form-left h1,
+.form-right h1 {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 1.6rem;
+}
+
+.form-left p {
+    font-size: 1.5rem;
+}
+
+.form-left {
+    padding: 10px 0;
+}
+
+.form-right {
+    padding: 10px 15px;
+}
